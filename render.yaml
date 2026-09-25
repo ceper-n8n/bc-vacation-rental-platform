@@ -2,7 +2,6 @@ services:
   - type: web
     name: bc-vacation-rental-platform
     runtime: static
-    plan: free
     staticPublishPath: .
     domains:
       - platform.bcvacationrental.ca
